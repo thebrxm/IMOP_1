@@ -2317,7 +2317,6 @@ function cancelInlineEdit() {
 }
 
 function saveInlineEdit(index) {
-    // Tomamos los valores de las nuevas cajas de texto generadas en el card
     const newType = document.getElementById(`edit-type-${index}`).value.trim();
     const newLocation = document.getElementById(`edit-location-${index}`).value.trim().toUpperCase();
     const newNotes = document.getElementById(`edit-notes-${index}`).value.trim();
